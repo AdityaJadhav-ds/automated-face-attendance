@@ -13,7 +13,7 @@ The system automatically identifies individuals through a webcam and records att
 ## 🌐 Live Demo (Streamlit)
 
 🚀 **Try the live application here:**  
-👉 **https://your-streamlit-app-link.streamlit.app**
+👉 **https://automated-face-attendance-aditya524.streamlit.app/**
 
 > ⚠️ **Note:**  
 > - Camera access must be allowed in the browser  
