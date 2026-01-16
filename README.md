@@ -88,7 +88,7 @@ face-recognition-attendance-system/
 
 ### Clone the repository
 bash
-git clone https://github.com/AdityaJadhav-ds/face-recognition-attendance-system.git
+git clone https://github.com/AdityaJadhav-ds/automated-face-attendance.git
 cd face-recognition-attendance-system
 
 
