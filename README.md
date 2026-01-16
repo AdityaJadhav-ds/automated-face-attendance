@@ -86,134 +86,129 @@ face-recognition-attendance-system/
 
 ## 📥 Installation
 
-Clone the repository:
-```bash
+### Clone the repository
+bash
 git clone https://github.com/AdityaJadhav-ds/face-recognition-attendance-system.git
 cd face-recognition-attendance-system
 
 
-Install dependencies:
-
+### Install dependencies
+bash
 pip install -r requirements.txt
 
 
-Note (Windows users):
-Installing dlib may require Visual Studio Build Tools.
+> **Note (Windows users):**  
+> Installing `dlib` may require **Visual Studio Build Tools**.
 
-▶️ Run the Application
+---
+
+## ▶️ Run the Application
+bash
 streamlit run app.py
 
 
 The app will open automatically at:
-
+text
 http://localhost:8501
 
-🧑‍💻 How to Use
-✅ Mark Attendance
 
-Open the app
+---
 
-Select Mark Attendance
+## 🧑‍💻 How to Use
 
-Allow camera access
+### ✅ Mark Attendance
+- Open the app  
+- Select **Mark Attendance**  
+- Allow camera access  
+- Face the camera  
+- Attendance is recorded automatically  
 
-Face the camera
+---
 
-Attendance is recorded automatically
+### ➕ Register a New Face
 
-➕ Register a New Face
+#### Method 1: Web Interface
+- Go to **Register New Face**
+- Enter the person's name
+- Capture **3–5 images** from different angles
+- Save
 
-Method 1: Web Interface
+#### Method 2: Manual
+text
+known_faces/PersonName/
 
-Go to Register New Face
+- Add clear face images  
+- Restart the app  
 
-Enter the person's name
+---
 
-Capture 3–5 images from different angles
+## 📊 Attendance Records
 
-Save
-
-Method 2: Manual
-
-Create a folder in known_faces/PersonName/
-
-Add clear face images
-
-Restart the app
-
-📊 Attendance Records
-
-Generated daily
+Generated daily  
 
 File format:
-
+text
 Attendance_YYYY-MM-DD.xlsx
 
 
-Stored in the attendance/ directory
+Stored in:
+text
+attendance/
 
-Columns:
 
-Name
+### Columns
+- Name
+- Date
+- Time
 
-Date
+---
 
-Time
+## 🧠 Technical Details
+- Face Detection: HOG-based model  
+- Face Encoding: 128-dimensional embeddings  
+- Matching Threshold: 0.6 (configurable)  
+- Supported Formats: JPG, PNG, JPEG  
 
-🧠 Technical Details
+---
 
-Face Detection: HOG-based model
+## 🧪 Tips for Best Accuracy
+- Ensure good lighting  
+- Register multiple face angles  
+- Use clear, high-quality images  
+- Avoid face obstructions (masks, sunglasses)  
 
-Face Encoding: 128-dimensional embeddings
+---
 
-Matching Threshold: 0.6 (configurable)
+## 🐞 Troubleshooting
 
-Supported Formats: JPG, PNG, JPEG
+### Camera Not Working
+- Check webcam connection  
+- Close other camera-using apps  
+- Allow browser camera permission  
 
-🧪 Tips for Best Accuracy
+### Face Not Recognized
+- Improve lighting  
+- Register more images  
+- Face the camera directly  
 
-Ensure good lighting
-
-Register multiple face angles
-
-Use clear, high-quality images
-
-Avoid face obstructions (masks, sunglasses)
-
-🐞 Troubleshooting
-
-Camera Not Working
-
-Check webcam connection
-
-Close other camera-using apps
-
-Allow browser camera permission
-
-Face Not Recognized
-
-Improve lighting
-
-Register more images
-
-Face the camera directly
-
-Dependency Issues
-
+### Dependency Issues
+text
 dlib error → install Visual Studio Build Tools
-
 OpenCV issue → try opencv-python-headless
 
-📜 License
 
+---
+
+## 📜 License
 This project is open-source and free to use for educational and commercial purposes.
 
-🤝 Contact
+---
 
-Aditya Jadhav
-📌 Open to Data Science & ML roles
-🔗 GitHub: https://github.com/AdityaJadhav-ds
+## 🤝 Contact
 
-🔗 LinkedIn: www.linkedin.com/in/aditya-jadhav-6775702b4
+**Aditya Jadhav**  
+📌 Open to Data Science & ML roles  
+🔗 GitHub: https://github.com/AdityaJadhav-ds  
+🔗 LinkedIn: https://www.linkedin.com/in/aditya-jadhav-6775702b4  
 
-⭐ If you find this project useful, consider giving it a star!
+⭐ If you find this project useful, consider giving it a **star**!
