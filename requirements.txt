@@ -1,0 +1,8 @@
+streamlit
+opencv-contrib-python-headless
+openpyxl
+pandas
+numpy
+Pillow
+requests
+scikit-learn
